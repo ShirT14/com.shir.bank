@@ -50,6 +50,7 @@ public class Account {
 				{
 					((palatinum) client).negCounter++;
 				}
+				((palatinum) client).negCounter=0;
 				if (money > 100000) {
 					this.currentAmount += ((money * (0.1) )+ money);
 				}
